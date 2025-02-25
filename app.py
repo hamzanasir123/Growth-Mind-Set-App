@@ -15,12 +15,18 @@ project_1_page = st.Page(
     icon=":material/chat:",
 )
 
+project_2_page = st.Page(
+    page="views/Unit-Converter.py",
+    title="Unit Converter",
+    icon=":material/chat:",
+)
+
 # Navigation Setup
 
 pg = st.navigation(
     {
         "info" : [about_page],
-        "projects" : [project_1_page]
+        "projects" : [project_1_page,project_2_page]
     }
 )
 
