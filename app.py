@@ -21,12 +21,19 @@ project_2_page = st.Page(
     icon=":material/chat:",
 )
 
+project_3_page = st.Page(
+    page="views/Possword-Strenght-Meter.py",
+    title="Possword Strenght Meter",
+    icon=":material/chat:",
+)
+
+
 # Navigation Setup
 
 pg = st.navigation(
     {
         "info" : [about_page],
-        "projects" : [project_1_page,project_2_page]
+        "projects" : [project_1_page,project_2_page,project_3_page]
     }
 )
 
