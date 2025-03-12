@@ -27,13 +27,19 @@ project_3_page = st.Page(
     icon=":material/chat:",
 )
 
+project_4_page = st.Page(
+    page="views/Personal-Library-Manager.py",
+    title="Personal Library Manager",
+    icon=":material/chat:",
+)
+
 
 # Navigation Setup
 
 pg = st.navigation(
     {
         "info" : [about_page],
-        "projects" : [project_1_page,project_2_page,project_3_page]
+        "projects" : [project_1_page,project_2_page,project_3_page,project_4_page]
     }
 )
 
